@@ -1,12 +1,82 @@
-.crystals{
-    display: flex;
-    justify-content: space-around;
-    border: 1px solid red;
-    align-items: center;
+body {
+    background-image: url("../images/1.jpg");
 }
 
-.crystal{
-    border: 1px solid greenyellow;
-    height: 200px;
-    width: 200px;
+h1 {
+    border-style: dotted;
+    border-width: 9px;
+    text-align: center;
+    margin: 5%;
+    float: left;
+    background-color
+    color: yellow;
+    width: 40%;
+    height: 20%;
+    font-family: 'Great Vibes', cursive;
+
+
 }
+
+.gameRules {
+    /* background-color:tan; */
+    text-align: center;
+    border-width: 1px;
+    /* color: green; */
+    width: 60%;
+    margin: 10%;
+    height:60%;
+    font-weight: bold;
+    font-family: 'Audiowide', cursive;
+
+    }
+    
+#computerScore {
+    background-color: blueviolet;
+    width: 30%;
+    height: 75px;
+    margin-top: 5px;
+    float: right;
+    padding-top: 15px;
+    padding-left: 65px;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#Scoreboard {
+    float: left;
+    background-color: lightblue;
+    font-weight: bold;
+    font-family: 'Audiowide', cursive;
+    border: 2px;
+    font-size: 3rem;
+    font-weight: bold;
+    
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+
+  }
+
+  #buttons {
+    border-top: 5px;
+    margin: 55px;
+
+  }
+#playerScore {
+    font-size: 75px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-top: auto;
+    margin-right: auto
+
+}
+  #winsId,
+  #lossesID, {
+    font-size:3rem;
+    font-weight: bold;
+
+  }
